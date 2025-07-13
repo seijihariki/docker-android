@@ -75,7 +75,7 @@ emulator \
   -ranchu \
   $AUTH_FLAG \
   -no-window \
-  -no-snapshot  || update_state "ANDROID_STOPPED"
+  -no-snapshot $@ || update_state "ANDROID_STOPPED"
 
 
   # -qemu \

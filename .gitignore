@@ -83,4 +83,8 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# Temporary data
+android_avd/
+keys/
+
 # End of https://www.toptal.com/developers/gitignore/api/linux,macos,windows,powershell
